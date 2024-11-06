@@ -9,10 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.12"
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "@vueuse/core": "^11.2.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.6",
+    "vue": "^3.5.12",
+    "vue-chartjs": "^5.3.2",
+    "vue-jest": "^5.0.0-alpha.10",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
+    "ts-node": "^10.9.2",
     "typescript": "~5.6.2",
     "vite": "^5.4.10",
     "vue-tsc": "^2.1.8"
